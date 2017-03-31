@@ -1,7 +1,7 @@
 {
   "name": "string-reverse-resursive",
   "version": "1.0.0",
-  "description": "Returns string reversed.",
+  "description": "Returns string reversed using array splitting recursively.",
   "main": "index.js",
   "scripts": {
     "test": "node ./test.js"
