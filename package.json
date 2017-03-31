@@ -1,5 +1,5 @@
 {
-  "name": "string-reverse-resursive",
+  "name": "string-reverse-recursive",
   "version": "1.0.0",
   "description": "Returns string reversed using array splitting recursively.",
   "main": "index.js",
