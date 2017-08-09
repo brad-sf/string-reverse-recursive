@@ -1,10 +1,10 @@
-const strReverse = s => {
-  let split = s.split('');
+const stringReverse = (string) => {
+	if (string.length < 1) {
+		return string;
+	} else {
+		const splitString = string.split('');
+		return splitString.pop() + stringReverse(splitString.join(''));
+	}
+};
 
-  if(split.length > 1)
-    return split.pop() + strReverse(split.join(''));
-  else
-    return split.join('');
-}
-
-exports.strReverse = strReverse;
+module.exports = stringReverse;

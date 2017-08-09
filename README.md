@@ -1,17 +1,16 @@
 # StringReverseRecursive - JavaScript
 
 ## Installation
-`npm install string-reverse-resursive`
+```javascript
+npm install string-reverse-recursive
+````
 
 ## Usage
-Node.JS:
 ```javascript
-const {strReverse} = require('string-reverse-resursive');
-console.log( strReverse("Hello") ); // olleH
-```
+const stringReverse = require('string-reverse-recursive');
 
-ES6:
-```javascript
-import {strReverse} from 'string-reverse-resursive';
-console.log( strReverse("Hello") ); // olleH
+const greet = 'Hello World';
+const greetReversed = stringReverse(greet);
+
+console.log(greetReversed); // dlroW olleH
 ```

@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bradleyflood/string-reverse-resursive.git"
+    "url": "git+https://github.com/bradleyflood/string-reverse-recursive.git"
   },
   "keywords": [
     "string",
@@ -17,7 +17,7 @@
   "author": "Bradley Flood <bradley.flood@gmail.com> (https://bradleyflood.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bradleyflood/string-reverse-resursive/issues"
+    "url": "https://github.com/bradleyflood/string-reverse-recursive/issues"
   },
-  "homepage": "https://github.com/bradleyflood/string-reverse-resursive#readme"
+  "homepage": "https://github.com/bradleyflood/string-reverse-recursive#readme"
 }
